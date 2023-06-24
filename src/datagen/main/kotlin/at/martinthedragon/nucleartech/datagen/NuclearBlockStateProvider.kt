@@ -262,6 +262,7 @@ class NuclearBlockStateProvider(
         simpleBlock(NTechBlocks.smallCoolingTower.get(), models().getBuilder("small_cooling_tower").texture("particle", "other/small_cooling_tower/particles"))
         simpleBlock(NTechBlocks.largeCoolingTower.get(), models().getBuilder("large_cooling_tower").texture("particle", "other/large_cooling_tower/particles"))
         simpleBlock(NTechBlocks.oilDerrick.get(), models().getBuilder("oil_derrick").texture("particle", "other/oil_derrick/particles"))
+        horizontalBlock(NTechBlocks.oilRefinery.get(), models().getBuilder("oil_refinery").texture("particle", "other/oil_refinery/particles"))
         simpleBlock(NTechBlocks.pumpjack.get(), models().getBuilder("pumpjack").texture("particle", "other/pumpjack/particles"))
         simpleBlock(NTechBlocks.centrifuge.get(), models().getBuilder("centrifuge").texture("particle", "other/centrifuge/particles"))
         simpleBlock(NTechBlocks.rbmkColumn.get(), models().getBuilder("rbmk_column"))
