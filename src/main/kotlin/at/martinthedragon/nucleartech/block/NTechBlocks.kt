@@ -201,6 +201,7 @@ object NTechBlocks {
     val shredder = BLOCKS.registerK("shredder") { ShredderBlock(Properties.of(METAL).strength(5F).requiresCorrectToolForDrops().sound(SoundType.METAL)) }
     val assembler = BLOCKS.registerK("assembler") { AssemblerBlock(Properties.of(METAL).strength(5F).requiresCorrectToolForDrops().sound(SoundType.METAL).noOcclusion()) }
     val chemPlant = BLOCKS.registerK("chem_plant") { ChemPlantBlock(Properties.of(METAL).strength(5F).requiresCorrectToolForDrops().sound(SoundType.METAL).noOcclusion()) }
+    val oilRefinery = BLOCKS.registerK("oil_refinery") { OilRefineryBlock(Properties.of(METAL).strength(5F).requiresCorrectToolForDrops().sound(SoundType.METAL).noOcclusion()) }
     val turbine = BLOCKS.registerK("turbine") { TurbineBlock(Properties.of(METAL).strength(5F, 10F).requiresCorrectToolForDrops().sound(SoundType.METAL)) }
     val smallCoolingTower = BLOCKS.registerK("small_cooling_tower") { SmallCoolingTowerBlock(Properties.of(METAL).strength(5F, 10F).requiresCorrectToolForDrops().sound(SoundType.METAL).noOcclusion()) }
     val largeCoolingTower = BLOCKS.registerK("large_cooling_tower") { LargeCoolingTowerBlock(Properties.of(METAL).strength(5F, 10F).requiresCorrectToolForDrops().sound(SoundType.METAL).noOcclusion()) }
