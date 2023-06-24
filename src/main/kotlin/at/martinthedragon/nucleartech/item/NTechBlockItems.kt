@@ -195,6 +195,7 @@ object NTechBlockItems {
     val shredder = ITEMS.registerK("shredder") { BlockItem(NTechBlocks.shredder.get(), Item.Properties().tab(CreativeTabs.Machines)) }
     val assemblerPlacer = ITEMS.registerK("assembler") { SpecialModelMultiBlockPlacerItem(NTechBlocks.assembler.get(), ::AssemblerBlockEntity, AssemblerBlock::placeMultiBlock, Item.Properties().tab(CreativeTabs.Machines)) }
     val chemPlantPlacer = ITEMS.registerK("chem_plant") { SpecialModelMultiBlockPlacerItem(NTechBlocks.chemPlant.get(), ::ChemPlantBlockEntity, ChemPlantBlock::placeMultiBlock, Item.Properties().tab(CreativeTabs.Machines)) }
+    val oilRefineryPlacer = ITEMS.registerK("oil_refinery") { SpecialModelMultiBlockPlacerItem(NTechBlocks.oilRefinery.get(), ::OilRefineryBlockEntity, OilRefineryBlock::placeMultiBlock, Item.Properties().tab(CreativeTabs.Machines)) }
     val turbine = ITEMS.registerK("turbine") { AutoTooltippedBlockItem(NTechBlocks.turbine.get(), Item.Properties().tab(CreativeTabs.Machines)) }
     val smallCoolingTower = ITEMS.registerK("small_cooling_tower") { SpecialModelMultiBlockPlacerItem(NTechBlocks.smallCoolingTower.get(), ::SmallCoolingTowerBlockEntity, SmallCoolingTowerBlock::placeMultiBlock, Item.Properties().tab(CreativeTabs.Machines), 2F) }
     val largeCoolingTower = ITEMS.registerK("large_cooling_tower") { SpecialModelMultiBlockPlacerItem(NTechBlocks.largeCoolingTower.get(), ::LargeCoolingTowerBlockEntity, LargeCoolingTowerBlock::placeMultiBlock, Item.Properties().tab(CreativeTabs.Machines), 4F) }
